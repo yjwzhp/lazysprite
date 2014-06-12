@@ -1,12 +1,18 @@
 ---
 layout:default
-title:lazyspriteå®˜æ–¹åšå®¢
----
-<h2>{{ page.title }}</h2>
-<p>lazyspriteå›¢é˜Ÿæœ€æ–°åŠ¨æ€</p>
+title:lazysprite ¹Ù·½²©¿Í
+--
 
-<ul>
-	{% for post in site.posts %}
-	<li>{{ post.date | date_to_string }}<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-	{% endfor %}
-</ul>
+¡¡¡¡<h2>{{ page.title }}</h2>
+
+¡¡¡¡<p>×îĞÂÎÄÕÂ</p>
+
+¡¡¡¡<ul>
+
+	¡¡¡¡¡¡¡¡{% for post in site.posts %}
+
+	¡¡¡¡¡¡¡¡¡¡¡¡<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+
+	¡¡¡¡¡¡¡¡{% endfor %}
+
+	¡¡¡¡</ul>
